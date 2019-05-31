@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popup Options (Schedule, List Prompt)</title>
+    <style>
+    
+    .ios.card>* {
+      padding: 0 1rem;
+    }
+    .ios.card p {
+      font-weight: bold;
+    }
+    .ios.card h6 {
+      font-weight: normal;
+      font-size: .8em;
+    }
+    .ios.card span {
+      font-weight: normal;
+      color: #666;
+      font-size: .8em;
+    }
+    .ios.card hr {
+      margin: .8em 0;
+      border: none;
+      border-bottom: solid 1px #666;
+    }
+    .ios.grid.card>* {
+      padding: 0;
+    }
+    .ios.grid.card>div:first-child {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+    }
+    .ios.grid.card>div:last-child {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    .ios.grid.card>div {
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: 2.5em auto 2em;
+    }
+    .ios.grid-2.card>* {
+      display: grid;
+      grid-template-columns: auto 4em;
+    }
+    .ios.grid-2.card mark {
+      font-size: 1.8em; 
+      /* color: rgb(54,88,146); */
+      text-align: right;
+      color: #555;
+      line-height: 1rem;
+      background: none;
+      font-weight: normal;
+    }
+    .ios.grid-2.card span {
+      /* font-size: 1.8em;  */
+      /* color: rgb(54,88,146); */
+      text-align: center;
+      color: #ddd;
+      line-height: 1rem;
+      background: none;
+      font-weight: 500;
+      border-radius: 2px;
+      background: linear-gradient(#222, #333);
+      border: 1px solid #555;
+      padding: 2px;
+    }
+    .ios.grid-2.card s {
+      text-decoration: none;
+      color: #777;
+    }
+    .ios.grid.card hr {
+      margin: 0;
+    }
+    .ios.grid.card p {
+      font-weight: normal;
+      font-size: .8em;
+      color: #444;
+    }
+    .ios.grid.card figcaption {
+      font-weight: normal;
+      /* font-size: 1.8em; */
+      color: #777;
+      align-self: center;
+      padding-left: .5em;
+      background: none;
+    }
+    .ios.grid.card mark {
+      font-size: 1.8em;
+      color: #777;
+      align-self: center;
+      text-align: right;
+      background: none;
+    }
+    .ios.grid.card mark b {
+      font-weight: normal;
+    }
+
+    .quote-text a {
+      text-shadow: -6px 0 4px #ffb6c1, 8px 0 4px #e0ffff;
+      transition: text-shadow 1.5s, color 1s, border .25s;
+      border-bottom: 2px solid transparent;
+      color: black;
+    }
+    .quote-text a:visited {
+      color: black;
+    }
+    .quote-text:hover a {
+      border-bottom: 2px solid #fff;
+      color: #000;
+    }
+    .quote-glyph {
+      font-size: 10em; 
+      line-height: 0; 
+      padding-bottom: .2em;
+      font-style: normal;
+    }
+    @media only screen and (max-width: 719px) {
+      .card-dual {
+        grid-template-columns: none !important;
+      }
+      .card-quote {
+        font-size: .6em;
+      }
+      h2.hero {
+        /* padding-top: 38vh !important; */
+      }
+      .card * {
+        margin: 0;
+      }
+    }
+    .card * {
+        margin: 0;
+      }
+      </style>
+</head>
+<body>
+    
+    <div class="card-dual" style="
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        max-width: 420px;
+        ">
+          <div style="text-decoration: none;">
+            <div class="card ios grid-2" style="
+              padding: 1rem 0;
+              border-radius: 10px;
+              background: radial-gradient(circle at top, #fffa, #fff4 50%), lightsteelblue;
+              border: 1px solid #444;
+              /* box-shadow: 0 0 10px -1px #000; */
+              color: #262626;
+            ">
+              <p>
+                Monday
+                <span>
+                  4 PM
+                </span>
+              </p>
+              <br>
+              <p>
+                Tuesday
+                <span>
+                  9 AM
+                </span>
+              </p>
+              <br>
+              <p>
+                Wednesday
+                <span>
+                  7 PM
+                </span>
+              </p>
+              <br>
+              <p>
+                Thursday
+                <span>
+                  9 PM
+                </span>
+              </p>
+              <br>
+              <p>
+                Friday
+                <span>
+                  7 PM
+                </span>
+              </p>
+              <br>
+              <p>
+                Saturday
+                <span>
+                  4 PM
+                </span>
+              </p>
+              <br>
+              <p>
+                Sunday
+                <span>
+                  Free
+                </span>
+              </p>
+            </div>  
+          </div>
+          <br><br>
+          <div style="text-decoration: none;">
+            <div class="card ios grid-2" style="
+              padding: 1rem 0;
+              border-radius: 10px;
+              background: radial-gradient(circle, #555a, #000a), lightslategray;
+              border: 1px solid #444;
+              /* box-shadow: 0 0 10px -1px #000; */
+              color: #f2f2f2;
+            ">
+              <p>
+                6 Suite Complex
+                <span>
+                  $$$<s>$</s>
+                </span>
+              </p>
+              <br>
+              <p>
+                Rent Offices
+                <span>
+                  $<s>$$$</s>
+                </span>
+              </p>
+              <br>
+              <p>
+                The Airspace
+                <span>
+                  $$$$
+                </span>
+              </p>
+              <br>
+              <p>
+                Maycomb Spaces
+                <span>
+                  $$$<s>$</s>
+                </span>
+              </p>
+              <br>
+              <p>
+                Accomplice Complex
+                <span>
+                  $<s>$$$</s>
+                </span>
+              </p>
+              <br>
+              <p>
+                Open Offices
+                <span style="color: #0a3;">
+                  Free
+                </span>
+              </p>
+            </div> 
+          </div>
+        </div>
+</body>
+</html>
