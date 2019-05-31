@@ -99,6 +99,43 @@
     .ios.grid.card mark b {
       font-weight: normal;
     }
+
+    .quote-text a {
+      text-shadow: -6px 0 4px #ffb6c1, 8px 0 4px #e0ffff;
+      transition: text-shadow 1.5s, color 1s, border .25s;
+      border-bottom: 2px solid transparent;
+      color: black;
+    }
+    .quote-text a:visited {
+      color: black;
+    }
+    .quote-text:hover a {
+      border-bottom: 2px solid #fff;
+      color: #000;
+    }
+    .quote-glyph {
+      font-size: 10em; 
+      line-height: 0; 
+      padding-bottom: .2em;
+      font-style: normal;
+    }
+    @media only screen and (max-width: 719px) {
+      .card-dual {
+        grid-template-columns: none !important;
+      }
+      .card-quote {
+        font-size: .6em;
+      }
+      h2.hero {
+        /* padding-top: 38vh !important; */
+      }
+      .card * {
+        margin: 0;
+      }
+    }
+    .card * {
+        margin: 0;
+      }
     </style>
 </head>
 <body>
