@@ -20,3 +20,9 @@ You can find the collection hosted at [a website I have push access to PrettySig
   
 ## Usage:  
 I made these bc I love iOS 6 v v much. I have an iPod 4 y it makes me smile to see all the parallels to real-world design. These components can be modified and used in any way.  
+  
+## Plans:  
+- Review the work of Alejandro Burón, Eli Schiff, Cole Rise, and Scott Forstall  
+- Add documentation  
+- Build our components in Vue & React  
+- Simplify CSS  
