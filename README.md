@@ -16,7 +16,7 @@ Components:
 These are written with vanilla css and html in mind. Copy and paste / drop-in usability. Each file holds in itself all the text required to recreate them. A component would have the content in `<html><body> <!-- Component HTML --> </body></html>`. The CSS styling for the component may be partly inline and partly in `<style>` tags: `<html><head><style> /* Component CSS */ </style></head></body>`.  
   
 ## Examples:  
-You can find the collection hosted at [a website I have push access to PrettySights](https://prettysights.com/vsads/css-lounge/ios6-memoria.html)
+You can find the collection hosted at [a website I have push access to PrettySights](https://prettysights.com/vsads/css-lounge/)
   
 ## Usage:  
 I made these bc I love iOS 6 v v much. I have an iPod 4 y it makes me smile to see all the parallels to real-world design. These components can be modified and used in any way.  
