@@ -1,7 +1,11 @@
-# iOS 6 components for CSS 
+<center><h1>💻 iOS 6 &amp; Skeuomorphism in plain HTML CSS 📱</h1></center>
 Reimplementation of the skeuomorphic design language pioneered by Apple &amp; Scott  
-
-Components:  
+  
+<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Clock-y-Badge.png?raw=true">
+<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Subheading.png?raw=true">
+<img src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Counter.png?raw=true" width="300">
+  
+  Components:  
 - Analog Dial (Clock)  
 - Analog Counter (Clock)  
 - Delete Prompt (Shredder)  
@@ -11,11 +15,6 @@ Components:
 - Background Gradients (Settings Wallpaper)  
 - Popup Options (Schedule, Siri Prompt)  
   
-
-<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Clock-y-Badge.png?raw=true">
-<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Subheading.png?raw=true">
-<img src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Counter.png?raw=true" width="300">
-
 ## How to:  
 These are written with vanilla css and html in mind. Copy and paste / drop-in usability. Each file holds in itself all the text required to recreate them. A component would have the content in `<html><body> <!-- Component HTML --> </body></html>`. The CSS styling for the component may be partly inline and partly in `<style>` tags: `<html><head><style> /* Component CSS */ </style></head></body>`.  
   
