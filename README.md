@@ -1,5 +1,5 @@
 <h1 align="center">💻 iOS 6 &amp; Skeuomorphism in plain HTML CSS 📱</h1>
-Reimplementation of the skeuomorphic design language pioneered by Apple &amp; Scott  
+<p align="center">Reimplementation of the skeuomorphic design language pioneered by Apple &amp; Scott</p>  
   
 <p align="center">
 <img align="center" width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Clock-y-Badge.png?raw=true">
