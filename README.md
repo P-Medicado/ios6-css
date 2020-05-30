@@ -1,9 +1,13 @@
-<center><h1>💻 iOS 6 &amp; Skeuomorphism in plain HTML CSS 📱</h1></center>
+<h1 align="center">💻 iOS 6 &amp; Skeuomorphism in plain HTML CSS 📱</h1>
 Reimplementation of the skeuomorphic design language pioneered by Apple &amp; Scott  
   
-<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Clock-y-Badge.png?raw=true">
-<img width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Subheading.png?raw=true">
-<img src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Counter.png?raw=true" width="300">
+<p align="center">
+<img align="center" width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Clock-y-Badge.png?raw=true">
+<br><br>
+<img align="center" width="300" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Subheading.png?raw=true">
+<br><br>
+<img align="center" src="https://github.com/P-Medicado/PS-iOS-6-CSS-Skeuomorphic/blob/master/img/View-Counter.png?raw=true" width="300">
+</p>
   
   Components:  
 - Analog Dial (Clock)  
